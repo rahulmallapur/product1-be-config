@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/CloudWithVarJosh/product1-be-config
+    repoURL: https://github.com/rahulmallapur/product1-be-config
     targetRevision: main
     path: manifests-be
 
@@ -23,5 +23,3 @@ spec:
       - CreateNamespace=true
       - PruneLast=true
       - ApplyOutOfSyncOnly=true
-
-      
